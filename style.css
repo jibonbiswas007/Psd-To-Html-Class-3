@@ -303,6 +303,11 @@ body {
 .single-blog-box {
   display: block;
   margin-bottom: 50px;
+  -webkit-transition: all 0.3s ease 0s;
+     -moz-transition: all 0.3s ease 0s;
+      -ms-transition: all 0.3s ease 0s;
+       -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
 }
 .singel-blog-bg {
   background-color: #10b6a7;
@@ -334,6 +339,9 @@ body {
 }
 .edutune-btn.blog-btn:hover {
   color: #FFF;
+}
+.single-blog-box:hover.single-blog-box {
+  opacity: 0.8;
 }
 /** Animate Button **/
 /*
